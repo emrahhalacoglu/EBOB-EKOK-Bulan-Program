@@ -67,11 +67,14 @@ public class Code {
                         int y=n1*j;
                         if(y==x){
                             System.out.println( "EKOK : "+y);
+                            break;
                         }
                         else if(y>x){
                             break;
                         }
                     }
+                    if(y==x){
+                        break;
                 }
             }else{
                 for (int i=1;i<=n2;i++){
@@ -80,11 +83,14 @@ public class Code {
                         int y=n2*j;
                         if(y==x){
                             System.out.println( "EKOK : "+y);
+                            break;
                         }
                         else if(y>x){
                             break;
                         }
                     }
+                    if(y==x){
+                        break;
                 } 
             }*/
  
